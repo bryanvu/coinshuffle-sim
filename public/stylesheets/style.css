@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #DBE3F0 !important;
+}
+
+h1 {
+  font-size: 36pt !important;
+  color: #003366 !important;
+}
+
+p {
+  font-size: 11pt;
+}
+
+a {
+  color: #3333FF !important;
+}
+
+.wallet_label {
+  font-weight: bold;
+  text-decoration: underline;
+  line-height: 200%;
+}
+
+.address_label {
+  font-weight: bold;
+}
+
+.client {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid darkgrey;
+  border-radius: 4px;
+}
+
+.successful {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.unsuccessful {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}

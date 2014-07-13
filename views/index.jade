@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  div.container
+    br
+    br
+    h1= title
+    br
+    br
+    div#main
+        p This page is intended to simulate multiple wallets making requests to join a CoinShuffle. To use this simulator, please also open 
+            a(target="_blank" href="http://shuffle.devbtc.com") shuffle.devbtc.com 
+            | to view the shuffle in progress. Press all of the buttons below to initiate the shuffle. The links below will allow you to observe transactions on the blockchain. Afterward, pool and reset the funds in order to run another simulation. Note that pooling and reset transactions can take approximately thirty seconds to generate and propagate, so try again a few seconds later if you receive an error.
+        br
+        button.btn#pool_funds Pool Funds
+        | &nbsp;&nbsp;
+        button.btn#reset_funds Reset Funds
+        br
+        br
